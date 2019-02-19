@@ -1,0 +1,11 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Feb 19 11:01:51 2019
+
+@author: atlew
+"""
+
+xh = input("Enter Hours: ")
+xr = input("Enter Rate: ")
+xp = float(xh) * float(xr)
+print("Howdy Pay", xp)
