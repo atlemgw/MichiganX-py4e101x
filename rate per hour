@@ -4,6 +4,7 @@ Created on Tue Feb 19 11:01:51 2019
 
 @author: atlew
 """
+# Program that counts working hours and add them to its hourly rate
 
 xh = input("Enter Hours: ")
 xr = input("Enter Rate: ")
