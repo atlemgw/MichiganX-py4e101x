@@ -1,0 +1,16 @@
+# Loop with strings
+# friends is a list with strings
+# the variable, friend, loops through every string in the list
+
+friends = ['Joseph', 'Glenn', 'Sally']
+for friend in friends :
+    print('Happy New Year:', friend)
+print('Done')
+
+# This loop is excactly the same as above
+# But I have replaced friend with x to show it's not about the variable name, you can call it whatever you want
+
+friends = ['Joseph', 'Glenn', 'Sally']
+for x in friends :
+    print('Happy New Year:', x)
+print('Done')
