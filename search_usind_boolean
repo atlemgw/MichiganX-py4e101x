@@ -1,0 +1,11 @@
+# Search Using a Boolean Value
+# If we just want tot search and lnow if a alue was found, we use a variable that
+# starts at False and is set to True as soon as we find what we are looking for
+
+found = False
+print('Before', found)
+for value in [9, 41, 12, 3, 74, 15] :
+    if value == 3 :
+        found= True
+    print(found, value)
+print('After', found)
