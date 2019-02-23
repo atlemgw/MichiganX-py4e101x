@@ -1,0 +1,7 @@
+# for loop that print 5,4,3,2,1 blastoff.
+# i is a variable, many use to call the variable i as in integer but it can be named anything
+# i is being printed 5 times in the for loop
+# af the looping 5 times the program ends up with a print function.
+for i in [5,4,3,2,1]:
+    print(i)
+print("Blastoff")
