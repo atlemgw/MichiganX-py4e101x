@@ -1,0 +1,17 @@
+# Two examples of while loops counting from 5 to 0 and then print out "blastoff"
+
+# First loop show the importans of identation using the print function at last
+# the loop prints 5,4,3,2,1, blastoff
+n = 5
+while n > 0:
+    print(n)
+    n = n-1
+print("Blastoff")
+
+# Second loop show how identation can go wrong if it's not placed in its right place
+# The loop will say 5 blastoff, 4 blastoff, 3 blastoff etc.
+n = 5
+while n > 0:
+    print(n)
+    n = n-1
+    print("Blastoff")
