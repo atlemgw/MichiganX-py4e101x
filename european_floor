@@ -1,0 +1,5 @@
+# Program that adds 1 to input
+
+inp = input("European floor:")
+usf = int(inp) + 1 #<- converts string to integer and adds with 1
+print("USF", usf)
