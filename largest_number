@@ -1,0 +1,10 @@
+# Program that prints the largest number of a list
+
+largest_so_far = -1 #<- Variable set to -1
+print('Before', largest_so_far) #<-- Prints Before and then the variable -1
+for the_num in [9, 41, 12, 3, 74, 15] : #<-- for loop with list of numbers
+    if the_num > largest_so_far: #<-- if condition is more than the variable largest_so_far it will grab the new number
+        largest_so_far = the_num #<-- the largest so far is being replaced by higher values
+    print(largest_so_far, the_num) #<-- the for loop prints both the largest_so_far and the_num variables
+    
+print('After', largest_so_far) # after the loop is done, a print function outputs After, largest_so_far
