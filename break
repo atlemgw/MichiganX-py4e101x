@@ -1,0 +1,7 @@
+# Program that writes inputs in a while loops and break when 'done' is typed as a string
+while True:
+	line = input('> ')
+	if line == 'done' :
+		break
+	print(line)
+print('Done')
