@@ -1,0 +1,11 @@
+# This while loop prints a string. When # is typed before an input, then nothing will be printed but the loop will still continue
+# when 'done' is typed, the program breaks
+
+while True:
+    line = input('> ')
+    if line[0] == '#' :
+        continue
+    if line == 'done' :
+        break
+    print(line)
+print('Done')
