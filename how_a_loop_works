@@ -1,0 +1,10 @@
+# Looping through a set shows how a loop works from top to bottom
+# Starts with print before
+# The loop starts with a list 9, 41, 3, 74, 15
+# The variable 'thing' goes ahead and print the strings
+# The loop stop and a print function output 'After
+
+print('Before')
+for thing in [9, 41, 12, 3, 74, 15] :
+    print(thing)
+print('After')
