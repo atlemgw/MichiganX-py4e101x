@@ -1,0 +1,7 @@
+# Looping through strings
+# looks up letters in the index/string
+
+while index < len(fruit):
+	letter = fruit[index]
+	print(index, letter)
+	index = index + 1
