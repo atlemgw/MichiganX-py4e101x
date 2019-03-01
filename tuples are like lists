@@ -1,0 +1,21 @@
+# Tuples have sequences starting from 0
+
+x = ('Glenn', 'Sally', 'Joseph')
+print(x[2])
+Joseph
+y = ( 1, 9, 2 )
+print(y)
+(1, 9, 2)
+print(max(y))
+9
+print(min(y))
+1
+
+# For loop
+for iter in y:
+	print(iter)
+
+	
+1
+9
+2
